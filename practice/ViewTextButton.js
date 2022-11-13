@@ -1,4 +1,11 @@
-import {Button, StyleSheet, Text, View} from "react-native";
+import {
+  Alert,
+  Button,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
 
 export default function ViewTextButton() {
   return (
@@ -20,6 +27,16 @@ export default function ViewTextButton() {
         onPress={() => alert("welcome to my first react native application!")}
         disabled={true}
       />
+
+      <TouchableOpacity
+        onPress={() =>
+          Alert.alert("Custom Button", "Custom button is working perfectly.")
+        }
+      >
+        <View style={styles.button}>
+          <Text style={styles.buttonText}>Custom Button</Text>
+        </View>
+      </TouchableOpacity>
     </View>
   );
 }
@@ -36,5 +53,20 @@ const styles = StyleSheet.create({
     fontSize: 32,
     fontWeight: "bold",
     textAlign: "center",
+  },
+  button: {
+    backgroundColor: "blue",
+    padding: 20,
+    marginTop: 20,
+    marginBottom: 20,
+    alignItems: "center",
+    borderWidth: 2,
+    borderColor: "yellow",
+    borderRadius: 10,
+  },
+  buttonText: {
+    fontSize: 24,
+    fontWeight: "bold",
+    color: "white",
   },
 });
