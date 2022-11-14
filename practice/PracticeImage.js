@@ -3,7 +3,11 @@ import {Image, StyleSheet, Text, View} from "react-native";
 export default function PracticeImage() {
   return (
     <View>
-      <Image source={require("../assets/test.png")} style={styles.image} />
+      <Image
+        source={require("../assets/test.png")}
+        style={styles.image}
+        resizeMode="contain"
+      />
     </View>
   );
 }

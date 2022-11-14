@@ -6,3 +6,13 @@ export {default as PracticeTouchableComponent} from "./PracticeTouchableComponen
 export {default as PracticeAlert} from "./PracticeAlert";
 export {default as PracticeImage} from "./PracticeImage";
 export {default as PracticeModal} from "./PracticeModal";
+export {default as PracticeSwitch} from "./PracticeSwitch";
+export {default as PracticeActivityIndicator} from "./PracticeActivityIndicator";
+export {default as PracticeSectionList} from "./PracticeSectionList";
+export {default as PracticePressableComponent} from "./PracticePressableComponent";
+export {default as PracticeRefreshControl} from "./PracticeRefreshControl";
+export {default as PracticeAccessoryView} from "./PracticeAccessoryView";
+export {default as PracticeTouchableNativeFeedback} from "./PracticeTouchableNativeFeedback";
+export {default as PracticeToastAndroid} from "./PracticeToastAndroid";
+export {default as PracticeAppearance} from "./PracticeAppearance";
+export {default as PracticeAnimated} from "./PracticeAnimated";

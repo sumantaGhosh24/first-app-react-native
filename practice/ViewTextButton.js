@@ -37,6 +37,12 @@ export default function ViewTextButton() {
           <Text style={styles.buttonText}>Custom Button</Text>
         </View>
       </TouchableOpacity>
+
+      <Text style={styles.text}>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+        facilis cumque eligendi in magnam a amet minima molestiae, nesciunt
+        quidem tenetur vel asperiores quae odit error, vitae sed? Enim, sint.
+      </Text>
     </View>
   );
 }
@@ -55,18 +61,23 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   button: {
-    backgroundColor: "blue",
+    backgroundColor: "yellow",
     padding: 20,
     marginTop: 20,
     marginBottom: 20,
     alignItems: "center",
     borderWidth: 2,
-    borderColor: "yellow",
+    borderColor: "black",
     borderRadius: 10,
   },
   buttonText: {
     fontSize: 24,
     fontWeight: "bold",
+    color: "black",
+  },
+  text: {
     color: "white",
+    fontSize: 20,
+    margin: 20,
   },
 });
